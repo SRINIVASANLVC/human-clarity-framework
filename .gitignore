@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Node modules (if you ever add JS tools)
+node_modules/
+
+# Python cache (if you ever add scripts)
+__pycache__/
+
+# Temporary files
+*.tmp
+*.swp   
