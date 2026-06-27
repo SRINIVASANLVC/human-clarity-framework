@@ -16,7 +16,7 @@ The project showcases my ability to:
 - Build a coherent architecture repository  
 - Communicate value clearly to stakeholders  
 
-This case study is designed for recruiters and hiring managers to understand my EA mindset, modeling skills, and ability to create structured, reusable architecture assets.
+This case study is designed for showcasing my ability to understand EA mindset, modeling skills, and ability to create structured, reusable architecture assets.
 
 ---
 
@@ -212,7 +212,7 @@ This project demonstrates:
 - Repository organization  
 - Communication clarity  
 
-### ✔ Recruiter‑ready evidence of EA capability  
+### ✔ Evidence of EA capability  
 The case study shows:
 
 - Problem framing  
@@ -220,7 +220,6 @@ The case study shows:
 - Artifact creation  
 - Value articulation  
 
-This is exactly what hiring managers look for in an EA candidate.
 
 ---
 
