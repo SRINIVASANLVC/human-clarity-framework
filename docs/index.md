@@ -44,7 +44,7 @@ All ArchiMate views for the Human Clarity Framework are available in the Archite
 
 You can browse the full diagram library here:
 
-👉 **[ArchiMate Diagram Index](Architecture%20Repository/05-Reference%20Library/00-archimate/diagram-index.md)**
+👉 **[ArchiMate Diagram Index](../Architecture%20Repository/05-Reference%20Library/00-archimate/diagram-index.md)**
 
 This index includes:
 
@@ -58,7 +58,7 @@ This index includes:
 
 Each diagram is exported from the master ArchiMate model:
 
-👉 **[Open the ArchiMate Model](archimate-source/human-clarity-framework.archimate)**
+👉 **[Open the ArchiMate Model](../archimate-source/human-clarity-framework.archimate)**
 
 These visuals provide a complete, multi‑layered representation of the Human Clarity Framework across capability, business, application, data, and technology domains.
 
@@ -186,3 +186,56 @@ This project demonstrates real EA modeling, TOGAF alignment, and architecture re
 For a broader introduction to Enterprise Architecture and TOGAF concepts, you can also read:
 
 👉 [Overview of Enterprise Architecture (Blogger Article)](https://lvccosmicinsights.blogspot.com/2026/06/overview-of-enterprise-architecture.html)
+
+
+
+
+
+
+# ArchiMate Diagram Index
+
+This folder contains all exported ArchiMate diagrams for the Human Clarity Framework.  
+Each diagram corresponds to a specific architectural viewpoint.
+
+---
+
+## Motivation View
+![Motivation View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Motivation%20View.png)
+
+---
+
+## Capability Map View
+![Capability Map View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Capability%20Map%20View.png)
+
+---
+
+## Business Layer View
+![Business Layer View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Business%20Layer%20View.png)
+
+---
+
+## Application Layer View
+![Application Layer View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Application%20Layer%20View.png)
+
+---
+
+## Data Layer View
+![Data Layer View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Data%20Layer%20View.png)
+
+---
+
+## Technology Layer View
+![Technology Layer View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Technology%20Layer%20View.png)
+
+---
+
+## Target Architecture View
+![Target Architecture View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Target%20Architecture.png)
+
+---
+
+## Source Model
+You can open the full ArchiMate model here:
+
+
+[Open in Archi](https://github.com/SRINIVASANLVC/human-clarity-framework/blob/main/archimate-source/human-clarity-framework.archimate)
