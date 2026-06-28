@@ -39,6 +39,10 @@ This project also showcases hands‑on Enterprise Architecture capability using 
 
 ### **4. ArchiMate Models**
 - Motivation View  
+## ArchiMate Views
+
+- [Human Clarity Motivation View](Architecture%20Repository/05-Reference%20Library/00-archimate/motivation-view.md)
+
 - Business Layer Models  
 - Information Layer Models  
 - Value Streams  
