@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Motivation Model" id="id-model-HCF" version="5.0.0">
+  <folder name="Strategy" id="id-ee19737e69e64b28bc1879fc88e41e83" type="strategy"/>
+  <folder name="Business" id="id-32b67a09915643c88297a2353c8d756a" type="business"/>
+  <folder name="Application" id="id-10a55f0d122e47fb99244c8cee70f8d8" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-e988056491724a82a56b6cbe49b89af4" type="technology"/>
+  <folder name="Motivation" id="id-25984f54132945399ed554fc15d2118c" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Human Clarity Stakeholder" id="id-el-1-HumanClarityStakeholder">
+      <documentation>Human Clarity Stakeholder - A person or group with an interest in the architecture.</documentation>
+    </element>
+    <element xsi:type="archimate:Driver" name="Need for Mental Clarity" id="id-el-2-NeedforMentalClarity">
+      <documentation>Need for Mental Clarity - A factor that motivates change (e.g., regulation, customer demand).</documentation>
+    </element>
+    <element xsi:type="archimate:Assessment" name="Human Confusion Assessment" id="id-el-3-HumanConfusionAssessment">
+      <documentation>Human Confusion Assessment - An evaluation of a situation (e.g., SWOT, risk analysis).</documentation>
+    </element>
+    <element xsi:type="archimate:Goal" name="Improve Human Clarity" id="id-el-4-ImproveHumanClarity">
+      <documentation>Improve Human Clarity - A long-term desired outcome (e.g.,Improve customer satisfaction).</documentation>
+    </element>
+    <element xsi:type="archimate:Outcome" name="Reduce Cognitive Overload" id="id-el-5-ReduceCognitiveOverload">
+      <documentation>Reduce Cognitive Overload - A measurable end result (e.g.,Reduce call wait time to 30 seconds).</documentation>
+    </element>
+    <element xsi:type="archimate:Principle" name="Clarity-First Principle" id="id-el-6-Clarity-FirstPrinciple">
+      <documentation>Clarity-First Principle - A rule or guideline that shapes decisions.</documentation>
+    </element>
+    <element xsi:type="archimate:Requirement" name="Framework Must Be Simple" id="id-el-7-FrameworkMustBeSimple">
+      <documentation>Framework Must Be Simple - A need that must be met (e.g.,System must support 10k users).</documentation>
+    </element>
+    <element xsi:type="archimate:Constraint" name="Avoid Psychological Harm" id="id-el-8-AvoidPsychologicalHarm">
+      <documentation>Avoid Psychological Harm - A limitation that must be respected (e.g., budget, compliance).</documentation>
+    </element>
+    <element xsi:type="archimate:Meaning" name="Meaning of Human Clarity" id="id-el-9-MeaningofHumanClarity">
+      <documentation>Meaning of Human Clarity - The significance of an object or concept.</documentation>
+    </element>
+    <element xsi:type="archimate:Value" name="Value of Self-Understanding" id="id-el-10-ValueofSelf-Understanding">
+      <documentation>Value of Self-Understanding - The benefit or importance of something to a stakeholder.</documentation>
+    </element>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-f05909bc20314dbd87c22274b7969a20" type="implementation_migration"/>
+  <folder name="Other" id="id-f254dde841274b5fbf564982831c0e75" type="other"/>
+  <folder name="Relations" id="id-5ab5ab489f8d41c78e452f76a4f3aedc" type="relations">
+    <element xsi:type="archimate:InfluenceRelationship" name="drives clarity" id="id-rel-1-Influence" source="id-el-2-NeedforMentalClarity" target="id-el-4-ImproveHumanClarity"/>
+    <element xsi:type="archimate:InfluenceRelationship" name="reduces confusion" id="id-rel-2-Influence" source="id-el-3-HumanConfusionAssessment" target="id-el-5-ReduceCognitiveOverload"/>
+    <element xsi:type="archimate:InfluenceRelationship" name="supports clarity" id="id-rel-3-Influence" source="id-el-6-Clarity-FirstPrinciple" target="id-el-4-ImproveHumanClarity"/>
+    <element xsi:type="archimate:InfluenceRelationship" name="requires simplicity" id="id-rel-4-Influence" source="id-el-7-FrameworkMustBeSimple" target="id-el-4-ImproveHumanClarity"/>
+    <element xsi:type="archimate:InfluenceRelationship" name="protects wellbeing" id="id-rel-5-Influence" source="id-el-8-AvoidPsychologicalHarm" target="id-el-4-ImproveHumanClarity"/>
+    <element xsi:type="archimate:InfluenceRelationship" name="defines meaning" id="id-rel-6-Influence" source="id-el-9-MeaningofHumanClarity" target="id-el-4-ImproveHumanClarity"/>
+    <element xsi:type="archimate:InfluenceRelationship" name="enables self-understanding" id="id-rel-7-Influence" source="id-el-10-ValueofSelf-Understanding" target="id-el-4-ImproveHumanClarity"/>
+    <element xsi:type="archimate:InfluenceRelationship" name="stakeholder needs clarity" id="id-rel-8-Influence" source="id-el-1-HumanClarityStakeholder" target="id-el-2-NeedforMentalClarity"/>
+  </folder>
+  <folder name="Views" id="id-928f62fda4714762ac97081cd4026c86" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Human Clarity Motivation View" id="id-view-HCF-Motivation">
+      <child xsi:type="archimate:DiagramObject" id="id-node-1" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-1-HumanClarityStakeholder">
+        <bounds width="200" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-8" font="1|Arial|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-node-1" target="id-node-2" archimateRelationship="id-rel-8-Influence"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-2" targetConnections="id-conn-8" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-2-NeedforMentalClarity">
+        <bounds y="120" width="200" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-1" font="1|Arial|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-node-2" target="id-node-4" archimateRelationship="id-rel-1-Influence"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-3" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-3-HumanConfusionAssessment">
+        <bounds x="312" y="144" width="200" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-2" font="1|Arial|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-node-3" target="id-node-5" archimateRelationship="id-rel-2-Influence"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-4" targetConnections="id-conn-1 id-conn-3 id-conn-4 id-conn-5 id-conn-6 id-conn-7" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-4-ImproveHumanClarity">
+        <bounds x="12" y="336" width="200" height="60"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-5" targetConnections="id-conn-2" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-5-ReduceCognitiveOverload">
+        <bounds x="300" y="288" width="200" height="85"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-6" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-6-Clarity-FirstPrinciple">
+        <bounds x="420" y="504" width="200" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-3" font="1|Arial|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-node-6" target="id-node-4" archimateRelationship="id-rel-3-Influence"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-7" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-7-FrameworkMustBeSimple">
+        <bounds x="396" y="408" width="200" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-4" font="1|Arial|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-node-7" target="id-node-4" archimateRelationship="id-rel-4-Influence"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-8" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-8-AvoidPsychologicalHarm">
+        <bounds x="228" y="671" width="200" height="73"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-5" font="1|Arial|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-node-8" target="id-node-4" archimateRelationship="id-rel-5-Influence"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-9" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-9-MeaningofHumanClarity">
+        <bounds x="12" y="684" width="200" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-6" font="1|Arial|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-node-9" target="id-node-4" archimateRelationship="id-rel-6-Influence"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-node-10" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" fillColor="#ffffcc" archimateElement="id-el-10-ValueofSelf-Understanding">
+        <bounds x="396" y="600" width="200" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-7" font="1|Arial|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fontColor="#000000" lineColor="#000000" source="id-node-10" target="id-node-4" archimateRelationship="id-rel-7-Influence"/>
+      </child>
+      <documentation>Motivation layer diagram for Human Clarity Framework</documentation>
+    </element>
+  </folder>
+  <purpose>example model details</purpose>
+</archimate:model>
