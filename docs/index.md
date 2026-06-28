@@ -44,7 +44,7 @@ All ArchiMate views for the Human Clarity Framework are available in the Archite
 
 You can browse the full diagram library here:
 
-👉 **[ArchiMate Diagram Index](../Architecture%20Repository/05-Reference%20Library/00-archimate/diagram-index.md)**
+👉 **[ArchiMate Diagram Index](https://github.com/SRINIVASANLVC/human-clarity-framework/tree/main/Architecture%20Repository/05-Reference%20Library/00-archimate/diagram-index.md)**
 
 This index includes:
 
@@ -58,7 +58,7 @@ This index includes:
 
 Each diagram is exported from the master ArchiMate model:
 
-👉 **[Open the ArchiMate Model](../archimate-source/human-clarity-framework.archimate)**
+👉 **[Open the ArchiMate Model](https://github.com/SRINIVASANLVC/human-clarity-framework/blob/main/archimate-source/human-clarity-framework.archimate)**
 
 These visuals provide a complete, multi‑layered representation of the Human Clarity Framework across capability, business, application, data, and technology domains.
 
@@ -200,37 +200,37 @@ Each diagram corresponds to a specific architectural viewpoint.
 ---
 
 ## Motivation View
-![Motivation View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Motivation%20View.png)
+![Motivation View](https://github.com/SRINIVASANLVC/human-clarity-framework/tree/main/Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Motivation%20View.png)
 
 ---
 
 ## Capability Map View
-![Capability Map View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Capability%20Map%20View.png)
+![Capability Map View](https://github.com/SRINIVASANLVC/human-clarity-framework/tree/main/Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Capability%20Map%20View.png)
 
 ---
 
 ## Business Layer View
-![Business Layer View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Business%20Layer%20View.png)
+![Business Layer View](https://github.com/SRINIVASANLVC/human-clarity-framework/tree/main/Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Business%20Layer%20View.png)
 
 ---
 
 ## Application Layer View
-![Application Layer View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Application%20Layer%20View.png)
+![Application Layer View](https://github.com/SRINIVASANLVC/human-clarity-framework/tree/main/Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Application%20Layer%20View.png)
 
 ---
 
 ## Data Layer View
-![Data Layer View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Data%20Layer%20View.png)
+![Data Layer View](https://github.com/SRINIVASANLVC/human-clarity-framework/tree/main/Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Data%20Layer%20View.png)
 
 ---
 
 ## Technology Layer View
-![Technology Layer View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Technology%20Layer%20View.png)
+![Technology Layer View](https://github.com/SRINIVASANLVC/human-clarity-framework/tree/main/Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Technology%20Layer%20View.png)
 
 ---
 
 ## Target Architecture View
-![Target Architecture View](../Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Target%20Architecture.png)
+![Target Architecture View](https://github.com/SRINIVASANLVC/human-clarity-framework/tree/main/Architecture%20Repository/05-Reference%20Library/00-archimate/Human%20Clarity%20Target%20Architecture.png)
 
 ---
 
