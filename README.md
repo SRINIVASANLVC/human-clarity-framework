@@ -37,16 +37,31 @@ This project also showcases hands‑on Enterprise Architecture capability using 
 - Emotional Operating System (Emotional‑OS)  
 - Target State Architecture (specific future design)  
 
-### **4. ArchiMate Models**
+
+## **4. Architecture Diagrams**
+
+All ArchiMate views for the Human Clarity Framework are available in the Architecture Repository.
+
+You can browse the full diagram library here:
+
+👉 **[ArchiMate Diagram Index](Architecture%20Repository/05-Reference%20Library/00-archimate/diagram-index.md)**
+
+This index includes:
+
 - Motivation View  
-## ArchiMate Views
+- Capability Map View  
+- Business Layer View  
+- Application Layer View  
+- Data Layer View  
+- Technology Layer View  
+- Target Architecture View  
 
-- [Human Clarity Motivation View](Architecture%20Repository/05-Reference%20Library/00-archimate/motivation-view.md)
+Each diagram is exported from the master ArchiMate model:
 
-- Business Layer Models  
-- Information Layer Models  
-- Value Streams  
-- Target Architecture views  
+👉 **[Open the ArchiMate Model](archimate-source/human-clarity-framework.archimate)**
+
+These visuals provide a complete, multi‑layered representation of the Human Clarity Framework across capability, business, application, data, and technology domains.
+
 
 ### **5. Patterns & Models (Reference Library)**
 - Emotional Patterns  
