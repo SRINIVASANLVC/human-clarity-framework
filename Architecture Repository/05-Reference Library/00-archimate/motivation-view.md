@@ -1,5 +1,10 @@
 # Motivation View (ArchiMate) — Human Clarity Framework
 
+# Human Clarity Motivation View
+
+![Motivation View](Human%20Clarity%20Motivation%20View.png)
+
+
 ## 1. Drivers (Why this architecture is needed)
 - Increasing emotional stress in modern life
 - Lack of accessible mental clarity tools
